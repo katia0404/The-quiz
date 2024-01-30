@@ -1,0 +1,12 @@
+.auth-page {
+    height: 100vh;
+    
+    background: no-repeat url(./lake.jpg);
+    background-size: 50% auto; /* Установить ширину картинки в 50% страницы */
+    background-position: center center; /* Позиционировать изображение по центру страницы */
+    background-attachment: fixed;
+    background-clip: content-box; 
+    margin-top: 0;
+    padding-top: 0;
+    background-size: 1300px 800px;
+}
