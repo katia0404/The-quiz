@@ -1,14 +1,16 @@
-import { RouterProvider } from "react-router-dom"
-import { router } from "./router/router"
-import '/src/pages/Auth.tsx';
-function App() {
+import {FC} from "react"
 
+const Auth FC = () => {
+
+  const [isLogin,setIsLogin] = useState<boolean>(false)
   return (
-    <div className="app">
-        <AuthPage />
-    </div>
-  <RouterProvider router={router}/>
 
+   /* <div className="mt-40 flex flex-col items-center justify-center bg-slate-900 text-white"></div>
+        <h1 className="mb-10 text-center text-xl">Login </h1>
+    <div/>*/
+    function App(){
+      return <RouterProvider router={roiter} />
+    }
+  )
 }
-
-export default App;
+export default Auth
