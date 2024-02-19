@@ -8,8 +8,7 @@ import Auth from "../pages/Auth"
 export const router = createBrowserRouter([
     {
         path:"/",
-        element:<Layout/>,
-        errorElement:<ErrorPage/>,
+        element:<Layout/>,        errorElement:<ErrorPage/>,
         children: [
             
             {
